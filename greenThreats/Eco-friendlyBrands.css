@@ -1,0 +1,182 @@
+.Eco-friendly {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transform: scale(1.2);
+}
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  font-family: "Signika Negative", sans-serif;
+  padding: 0px;
+}
+.navbar {
+  height: 15vh;
+  background-color: #265e2e;
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+.pointer {
+  cursor: pointer;
+}
+.logo img {
+  cursor: pointer;
+  height: 85%;
+  width: 10vw;
+  margin: 0.5vw;
+  margin-left: 30px;
+  animation: 1s alternate slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 3%;
+    width: 38%;
+  }
+}
+.logo {
+  height: 100%;
+  width: 30vw;
+}
+.navElementContainer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 3.2vw;
+}
+.navElementContainer li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: aliceblue;
+  cursor: pointer;
+  height: 25%;
+  transition: all 0.1s ease-in-out;
+}
+.navElementContainer li:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transform: scale(1.2);
+}
+.home {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.row1 {
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.footer {
+  height: 45vh;
+  background-color: #265e2e;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footerlogo img {
+  height: 90%;
+  width: 70%;
+}
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.foot {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footerContainer p {
+  color: white;
+  font-size: 1.3vmax;
+}
+.contactContainer {
+}
+.contact {
+  padding: 0.5rem;
+}
+.number i {
+  font-size: 1.3rem;
+  margin-right: 0.5vw;
+}
+.number {
+  font-size: 1.1rem;
+  color: white;
+}
+.cabName {
+  font-size: 1.2rem;
+  color: white;
+}
+.colabration {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+}
+.date {
+  color: white;
+}
+.icons i {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-right: 0.5rem;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+.icons i:hover {
+  transform: scale(1.3);
+}
+.row01 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 50vh;
+  width: 100%;
+}
+.seprater {
+  height: 0.3vh;
+  background-color: rgba(0, 0, 0, 0.447);
+}
+.row1Image a img {
+  height: 25%;
+  width: 50%;
+}
+.row1Image a {
+  display: flex;
+  justify-content: center;
+}
+.row1Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row1Info {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  font-size: 1.5rem;
+  color: #265e2e;
+}
+.row02 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 50vh;
+}
