@@ -9,6 +9,10 @@
   font-family: "Signika Negative", sans-serif;
   padding: 0px;
 }
+::-webkit-scrollbar {
+  display: none;
+}
+
 .navbar {
   height: 15vh;
   background-color: #265e2e;

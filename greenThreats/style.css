@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 * {
   margin: 0px;
   font-family: "Signika Negative", sans-serif;
@@ -59,12 +59,46 @@
   border-bottom: 3px solid rgb(255, 255, 255);
   transform: scale(1.2);
 }
+.slowgan {
+  font-family: "Anton", sans-serif;
+  height: 80vh;
+  width: 40vw;
+  font-size: 4.2rem;
+  color: #265e2e;
+  padding-left: 3vw;
+  padding-top: 10vh;
+}
 .home {
-  background-image: url("./assets/flat-design-sustainable-fashion-concept_52683-55452.jpg");
+  background-image: url("./assets/cropBack.jpg");
   height: 85vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.swapHub {
+  color: #bc4749;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  height: 40%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swapInfo {
+  font-size: 1.2rem;
+}
+.swapHub h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.oneLineInfo {
+  margin-left: 30vw;
+  padding-top: 15vh;
 }
 .row1 {
   background-image: url("./assets/logo.jpg");
@@ -138,4 +172,18 @@
   transform: scale(1.3);
 }
 .icons {
+}
+.r1Container {
+  width: 66%;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #bc4749;
+}
+.row1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+::-webkit-scrollbar {
+  display: none;
 }
