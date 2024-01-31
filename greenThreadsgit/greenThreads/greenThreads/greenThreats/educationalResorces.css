@@ -1,0 +1,157 @@
+.edu {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transform: scale(1.2);
+}
+.row11 {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.row11Image img {
+  border-radius: 50%;
+  height: 50vh;
+  width: 50vh;
+}
+.row11Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p1 {
+  font-family: "Candara", sans-serif;
+  color: #265e2e;
+  font-size: 24px;
+}
+.row11Info {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.row12 {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.row12Image img {
+  border-radius: 50%;
+  height: 50vh;
+  width: 50vh;
+}
+.row12Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p2 {
+  font-family: "Candara", sans-serif;
+  color: #265e2e;
+  font-size: 24px;
+}
+.row12Info {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.row13 {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.row13Image img {
+  border-radius: 50%;
+  height: 50vh;
+  width: 50vh;
+}
+.row13Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row13Info {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.row14 {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.row14Image img {
+  border-radius: 50%;
+  height: 50vh;
+  width: 50vh;
+}
+.row14Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row14Info {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.row15 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  /*grid-template-columns: 1fr 2fr;*/
+}
+.row15Image img {
+  width: 100%;
+  height: 60vh;
+  width: 80vh;
+}
+.row15Image {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row16Info {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.row16 {
+  text-align: center;
+  height: 50vh;
+  display: flex;
+
+  /*grid-template-columns: 1fr 2fr;*/
+}
+
+.header {
+  font-family: "Candara", sans-serif;
+  color: #265e2e;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+hr {
+  color: #265e2e;
+}
+.p3 {
+  font-family: "Candara", sans-serif;
+  color: #265e2e;
+  font-size: 24px;
+  text-align: center;
+}
